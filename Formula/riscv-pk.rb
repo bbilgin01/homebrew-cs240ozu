@@ -1,7 +1,8 @@
 class RiscvPk < Formula
   desc "RISC-V Proxy Kernel"
   homepage "http://riscv.org"
-  url "https://github.com/riscv/riscv-pk.git", :using => :git, version: "main"
+  url "https://github.com/riscv/riscv-pk.git"
+  version "main"
 
   depends_on "gnu-sed" => :build
   depends_on "riscv-software-src/riscv/riscv-gnu-toolchain" => :build
