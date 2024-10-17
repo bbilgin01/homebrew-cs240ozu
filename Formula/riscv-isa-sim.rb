@@ -13,7 +13,7 @@ class RiscvIsaSim < Formula
     mkdir "build"
     cd "build" do
       args = [
-       "--prefix=#{prefix}", "--with-target=../../riscv-pk/main/riscv32-unknown-elf"
+       "--prefix=#{prefix}", "--with-target=../../riscv-pk/main/riscv64-unknown-elf"
       ]
       if build.with? "boost"
         # This seems to be needed at least on macos/arm64
