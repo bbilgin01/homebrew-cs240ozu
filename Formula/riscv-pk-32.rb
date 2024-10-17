@@ -1,4 +1,4 @@
-class RiscvPk < Formula
+class RiscvPk32 < Formula
   desc "RISC-V Proxy Kernel"
   homepage "http://riscv.org"
   url "https://github.com/riscv/riscv-pk.git", :using => :git, :tag => "v1.0.0"
