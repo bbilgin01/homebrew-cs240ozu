@@ -4,11 +4,6 @@ class RiscvIsaSim < Formula
   url "https://github.com/riscv/riscv-isa-sim.git"
   version "main"
 
-  bottle do
-    root_url "http://riscv.org.s3.amazonaws.com/bottles"
-    rebuild 17
-  end
-
   depends_on "dtc"
   depends_on "boost" => :optional
 
