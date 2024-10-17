@@ -1,5 +1,11 @@
 # homebrew-cs240ozu
 
+Dependencies: 
+
+    - riscv-gnu-toolchain multilib enabled (If you have installed homebrew-riscv with multilib enabled       you should not have any issues) 
+    - If not you will get: Error: No formula found for riscv-gnu-toolchain.
+    
+
 This is a brew formula for riscv32-bit Spike and pk tools.
 If you already have 32-bit capabilites or you want 64-bit tools to remain please do not follow this.
 
