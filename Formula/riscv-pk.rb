@@ -4,14 +4,9 @@ class RiscvPk < Formula
   url "https://github.com/riscv/riscv-pk.git", :using => :git, :tag => "v1.0.0"
   version "1.0.0"
 
-  bottle do
-    root_url "http://riscv.org.s3.amazonaws.com/bottles"
-    rebuild 15
-  end
-
   depends_on "gnu-sed" => :build
-  depends_on "riscv-gnu-toolchain" => :build
-  depends_on "riscv-isa-sim" => :build
+  depends_on "riscv-software-src/riscv/riscv-gnu-toolchain" => :build
+  depends_on "selimsandal/cs240ozu/riscv-isa-sim" => :build
 
   def install
     # Use riscv-gcc for 32-bit target
