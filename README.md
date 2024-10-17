@@ -2,7 +2,8 @@
 
 Dependencies: 
 
-    - riscv-gnu-toolchain multilib enabled (If you have installed homebrew-riscv with multilib enabled       you should not have any issues) 
+    - riscv-gnu-toolchain multilib enabled (If you have installed
+    homebrew-riscv with multilib enabled you should not have any issues) 
     - If not you will get: Error: No formula found for riscv-gnu-toolchain.
     
 
