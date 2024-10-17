@@ -10,7 +10,7 @@ class RiscvPk < Formula
 
   def install
     # Use riscv-gcc for 32-bit target
-    ENV["CC"] = "riscv64-unknown-elf-gcc --with-arch=rv32i --with-abi=ilp32"
+    ENV["CC"] = "riscv64-unknown-elf-gcc"
 
     mkdir "build"
     cd "build" do
