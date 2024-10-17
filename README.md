@@ -13,7 +13,7 @@ To switch your brew installed riscv-tools from 64-bit to 32-bit
 
   if you already have Spike and pk installed with 64-bit please run these arguments before proceeding with installation:
         
-    $ brew clean
+    $ brew cleanup
     $ brew uninstall riscv-pk
     $ brew uninstall riscv-isa-sim
   if you have any issues with uninstallations try with "--ignore-dependencies"
