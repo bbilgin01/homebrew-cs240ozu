@@ -6,7 +6,7 @@ class RiscvPk < Formula
 
   depends_on "gnu-sed" => :build
   depends_on "riscv-software-src/riscv/riscv-gnu-toolchain" => :build
-  depends_on "bbilgin01/cs240ozu/riscv-isa-sim" => :build
+  depends_on "selimsandal/cs240ozu/riscv-isa-sim" => :build
 
   def install
     # Use riscv-gcc for 32-bit target
