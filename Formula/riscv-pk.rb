@@ -10,11 +10,11 @@ class RiscvPk < Formula
 
   def install
     # Use riscv-gcc for 32-bit target
-    ENV["CC"] = "riscv32-unknown-elf-gcc"
+    ENV["CC"] = "riscv64-unknown-elf-gcc"
 
     mkdir "build"
     cd "build" do
-      system "../configure", "--prefix=#{prefix}", "--host=riscv64-unknown-elf", \
+      system "../configure", "--prefix=#{prefix}", "--host=riscv32-unknown-elf", \
         "--with-arch=rv32i_zicsr_zifencei"
       # Use gnu-sed's behavior to build, modify Makefile as needed
       inreplace "Makefile", " sed", " gsed"
