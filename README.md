@@ -28,8 +28,8 @@ To switch your brew installed riscv-tools from 64-bit to 32-bit
   To install 32-bit using this special brew formula: 
 
     $ brew tap bbilgin01/homebrew-cs240ozu
-    $ brew install bbilgin01/homebrew-cs240ozu/riscv-isa-sim-32
-    $ brew install bbilgin01/homebrew-cs240ozu/riscv-pk-32
+    $ brew install bbilgin01/homebrew-cs240ozu/riscv-isa-sim
+    $ brew install bbilgin01/homebrew-cs240ozu/riscv-pk
 
   After you complete these steps without any errors. You should be able to simulate your 32-bit RISC-V executables with spike:
 
